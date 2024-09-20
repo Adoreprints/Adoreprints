@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Our Business</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Your One-Stop Solution</h2>
+            <p>We provide the best services to help your business grow.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Business Name</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Our Business</h2>
+            <p>We are a passionate team dedicated to providing top-notch services to our clients. Our goal is to help you succeed!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Business Name</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Your Business Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Business Name</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Your Business Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog">
+            <h2>Our Blog</h2>
+            <!-- Blog Post 1 -->
+            <article class="blog-post">
+                <h3>Blog Post Title 1</h3>
+                <p class="meta">Posted on <time datetime="2024-09-20">September 20, 2024</time> by Admin</p>
+                <p>This is a brief summary of the blog post. It provides an introduction to the topic discussed.</p>
+                <a href="#">Read More</a>
+            </article>
+            <!-- Blog Post 2 -->
+            <article class="blog-post">
+                <h3>Blog Post Title 2</h3>
+                <p class="meta">Posted on <time datetime="2024-09-15">September 15, 2024</time> by Admin</p>
+                <p>Another blog post summary goes here. Engage your readers with interesting content.</p>
+                <a href="#">Read More</a>
+            </article>
+            <!-- Add more blog posts as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Business Name</p>
+    </footer>
+</body>
+</html>
