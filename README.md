@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 we are a brand new company that sell stikcers for things such as phone cases and more, we aim to make it so that anyone can print our products. We appreciate the support.
 
 <!--
 **Adoreprints/Adoreprints** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
